@@ -22,7 +22,40 @@
     display: inline-block;
     width: 600px;
     margin-left: calc((100% - 600px) / 2);
+    text-align: center;
 }
+    .hero-row > .logo {
+        margin-bottom: 60px;
+        height: 40px;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: 60px;
+        line-height: 50px; 
+        margin-bottom: 30px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 60px;
+        color: #AEAFB4;
+    }
+
+    .clock {
+        margin-bottom: 60px;
+    }
+
+    .hero-row > .form {
+        width: 90%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
 
 .row {
     display: inline-block;
@@ -93,21 +126,21 @@
         }
     }
 
-        @media (max-width: 500px) {
-            .container {
-                padding-right: 20px;
-                padding-left: 20px;
-            }
-            .hero-row {
-                width: 100%;
-                margin-left: 0;
-                }
-                .row {
-                width: 100%;
-                margin-left: 0;  
-                }
-                .footer-texts {
-                width: 100%;
-                margin-left: 0;
-                }
+    @media (max-width: 500px) {
+        .container {
+        padding-right: 20px;
+        padding-left: 20px;
         }
+        .hero-row {
+        width: 100%;
+        margin-left: 0;
+        }
+        .row {
+        width: 100%;
+        margin-left: 0;  
+        }
+        .footer-texts {
+        width: 100%;
+        margin-left: 0;
+        }
+    }
