@@ -49,11 +49,12 @@
     .clock {
         margin-bottom: 45px;
     }
+    
 
     .hero-row > .form {
         width: 90%;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-bottom: 20px;
     }
 
